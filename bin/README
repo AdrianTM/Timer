@@ -1,0 +1,3 @@
+timer - Linux executable 64bit
+timer.exe - Windows executable (requires Qt environment installed)
+timer-installer.exe - Installer for Windows - to be used if you don't have Qt installed
