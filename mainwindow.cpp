@@ -173,7 +173,7 @@ void MainWindow::loadSettings()
 
 void MainWindow::processArgs(QStringList args)
 {
-    foreach (QString arg, args) {
+    for (QString arg : args) {
         if (arg.contains("--t=")) {
             qDebug() << tr("Wrong syntax, use either -t=xxx or --timer=xxx");
             break;

@@ -9,7 +9,7 @@ class Timer : public QLCDNumber
     Q_OBJECT
 
 public:
-    Timer(QWidget *parent = 0);
+    Timer(QWidget *parent = nullptr);
 
     bool running;
 
