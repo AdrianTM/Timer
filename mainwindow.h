@@ -19,7 +19,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QStringList args, QWidget *parent = 0);
+    explicit MainWindow(QStringList args, QWidget *parent = nullptr);
     ~MainWindow();
 
     void showHelp();
